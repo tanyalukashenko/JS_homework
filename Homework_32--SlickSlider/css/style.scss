@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+    background-image: url('../img/Background.png');
+    background-size: 100%;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    padding: 46px 20px 130px 20px;
+}
+
+.subtitle {
+    font-family: "Poppins";
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.title {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 42px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display:flex;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+.slider {
+    position: relative;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 39%;
+    z-index: 1;
+    font-size: 0;
+}
+
+.slick-prev {
+    left: 0;
+    background-image: url('../img/arrow-left.png');
+    background-size: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 100px;
+    height: 100px;
+}
+.slick-next {
+    right: 0;
+    background-image: url('../img/arrow-right.png');
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 100px;
+    height: 100px;
+}
+
+.slick-slide {
+    margin: 0 15px;
+    width: 443px;
+}
